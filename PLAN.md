@@ -210,11 +210,12 @@ Browser loads index.html (minimal shell)
 
 | מקור | API | עלות | מה נותן |
 |------|-----|------|---------|
-| **Hebcal** | hebcal.com/zmanim | חינם | זמני היום, פרשה, חגים |
-| **KosherJava/KosherZmanim** | npm package | חינם | חישוב מקומי, כל הזמנים |
-| **MyZmanim** | myzmanim.com | חינם | זמנים לפי עיר |
+| **Hebcal** | [hebcal.com/zmanim](https://www.hebcal.com/home/developer-apis) | חינם | זמני היום, פרשה, חגים |
+| **KosherZmanim (JS/TS)** | [github.com/BehindTheMath/KosherZmanim](https://github.com/BehindTheMath/KosherZmanim) | חינם | `npm install kosher-zmanim` — port של KosherJava, חישוב מקומי מלא |
+| **KosherJava (מקור)** | [github.com/KosherJava/zmanim](https://github.com/KosherJava/zmanim) | חינם | ספריית Java המקורית — reference implementation |
+| **MyZmanim** | [myzmanim.com](https://www.myzmanim.com) | חינם | זמנים לפי עיר |
 
-**המלצה**: `KosherZmanim` (npm) לחישוב מקומי + `Hebcal` API לתאריכים עבריים/פרשות.
+**המלצה**: `KosherZmanim` (npm) לחישוב מקומי — זה ה-port ל-JS/TS של KosherJava, הספרייה הכי מבוססת לזמנים הלכתיים. בשילוב `Hebcal` API לתאריכים עבריים, פרשות וחגים.
 
 ### 5.2 זמנים שמוצגים
 
